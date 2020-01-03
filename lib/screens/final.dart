@@ -77,14 +77,14 @@ class _FinalState extends State<Final> {
 
   @override
   Widget build(BuildContext context) {
-    height = MediaQuery.of(context).size.height - 30;
+    height = MediaQuery.of(context).size.height - 23;
     width = MediaQuery.of(context).size.width;
     cheight = height / row;
     cwidth = width / col;
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white54,
         body: Container(
             child: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
