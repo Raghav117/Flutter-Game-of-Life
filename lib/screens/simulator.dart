@@ -38,12 +38,12 @@ class _SimulatorState extends State<Simulator> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white70,
+        backgroundColor: Colors.white30,
         body: Column(
           children: <Widget>[
-            Container(
-                height: height,
-                width: width,
+            Expanded(
+                // height: height,
+                // width: width,
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: col,
